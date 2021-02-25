@@ -17,6 +17,8 @@ const io = socketIO(httpServer, {
   }
 });
 
+io.set('transports', ['websocket']); //from https://stackoverflow.com/questions/25268160/node-js-socket-io-on-heroku-throws-h13
+
 io.on('connection', (socket) => {
 
   socket.on('joinRoom', (room) => {

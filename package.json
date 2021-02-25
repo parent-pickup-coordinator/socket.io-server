@@ -1,0 +1,25 @@
+{
+  "name": "socket.io-server",
+  "version": "1.0.0",
+  "description": "## Socket.io Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parent-pickup-coordinator/socket.io-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parent-pickup-coordinator/socket.io-server/issues"
+  },
+  "homepage": "https://github.com/parent-pickup-coordinator/socket.io-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http": "0.0.1-security",
+    "socket.io": "^3.1.1"
+  }
+}

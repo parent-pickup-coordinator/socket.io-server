@@ -3,7 +3,7 @@ require('dotenv').config();
 const socketIO = require('socket.io');
 
 const httpServer = require('http').createServer();
-httpServer.listen(process.env.SOCKETPORT);
+httpServer.listen(process.env.PORT);
 
 console.log('SERVER sockets listening on: ', process.env.PORT);
 

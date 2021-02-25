@@ -5,7 +5,7 @@ const socketIO = require('socket.io');
 const httpServer = require('http').createServer();
 httpServer.listen(process.env.SOCKETPORT);
 
-console.log('SERVER sockets listening on: ', process.env.SOCKETPORT);
+console.log('SERVER sockets listening on: ', process.env.PORT);
 
 const io = socketIO(httpServer, {
   cors: {

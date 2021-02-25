@@ -9,8 +9,8 @@ console.log('SERVER sockets listening on: ', process.env.SOCKETPORT);
 
 const io = socketIO(httpServer, {
   cors: {
-    origin: "http://localhost:3002", //for testing local
-    // origin: "https://parent-pickup-coordinator.netlify.app/", //for deployment
+    // origin: "http://localhost:3002", //for testing local
+    origin: "https://parent-pickup-coordinator.netlify.app/", //for deployment
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
